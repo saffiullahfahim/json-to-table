@@ -1,0 +1,5 @@
+This is the project. You can run it locally. Also you can uncomment GetJson function and use that one as File will read json then from the location. Now two main things to implement are: In the code you have selectPlans array with hardcoded plan names. While in json file we have plans and their details.
+
+Firstly, in our real app instead of selected plans user selects plan so if order changes then details not coming correct when table is generated. You can test by changing SelectedPlans array. So respective data should be read and some sorting to be added so whatever plans are selected json is read accordingly.
+
+secondly. If you see Json and run it locally. The first column is Benefit.Name and it only comes once. Now the issue is for the first rows MonthlyPremium & Deductible (health benefit) we dont want to read values in columns from json instead we want to read from an array of objects which has [Plan Name, MonthlyPremium,Deductible]. Rest of column and row values will continue to read from json file.

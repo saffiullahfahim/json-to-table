@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="./script.js"></script>
+    <style>
+      body {
+        width: 70%;
+        margin: auto;
+        font-family: sans-serif;
+      }
+
+      /* #plans_table {
+
+        } */
+
+      #plans_table > td {
+        text-align: center;
+      }
+
+      #plans_table > thead {
+        background-color: deepskyblue;
+      }
+
+      #plans_table > thead > tr > td {
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.3em;
+      }
+
+      #plans_table > tbody > tr:nth-child(even) {
+        background-color: Lightgreen;
+      }
+
+      #plans_table > tbody > tr > td > span:first-child {
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+
+      #plans_table > tbody > tr > td > span:nth-child(2) {
+        font-weight: lighter;
+        border: 1px solid grey;
+        border-radius: 50%;
+      }
+
+      #plans_table > th,
+      td {
+        padding: 15px;
+        text-align: left;
+      }
+
+      .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+        cursor: pointer;
+      }
+
+      /* Tooltip text */
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 420px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+
+        /* Position the tooltip text - see examples below! */
+        position: absolute;
+        z-index: 1;
+      }
+
+      /* Show the tooltip text when you mouse over the tooltip container */
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="plans_table">
+      <tr>
+        <th>Loading</th>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,292 @@
+{
+  "Plans": [
+    {
+      "Id": "H12345",
+      "Name": "Forevermore HMO",
+      "Benefits": [
+        {
+          "Name": "MonthlyPremium",
+          "Description": "The monthly amount that you pay for your health insurance plan through eternalHealth.",
+          "Detail": "$120"
+        },
+        {
+          "Name": "Deuctible (Health Benefit)",
+          "Description": "The amount you pay for covered health care services before eternalHealth starts to pay.",
+          "Detail": "$0"
+        },
+        {
+          "Name": "Deductible (Drug Benefit) ",
+          "Description": "The amount you pay for covered prescription drugs before eternalHealth starts to pay.",
+          "Detail": "Tier 1 and 2 Drugs - $0 Tier 3, 4, and 5 Drugs - $185"
+        },
+        {
+          "Name": "Primary Care",
+          "Description": "",
+          "Detail": "$0 Copay"
+        },
+        {
+          "Name": "Preventative Care",
+          "Description": "The portion of your care that includes screenings, check-ups, and counseling to prevent health problems before they happen",
+          "Detail": "$0 Copay"
+        },
+        {
+          "Name": "Specialist Care",
+          "Description": "Services provided by a physician that focuses on a specific area of medicine, treating certain diseases, health problems, parts of the body, or certain age groups",
+          "Detail": "$10 Copay"
+        },
+        {
+          "Name": "Preventive Dental Services",
+          "Description": "Services provided by a physician that focuses on a specific area of medicine, treating certain diseases, health problems, parts of the body, or certain age groups",
+          "Detail": "$0 Copay"
+        },
+        {
+          "Name": "Comprehensive Dental Services ",
+          "Description": "Services provided by a physician that focuses on a specific area of medicine, treating certain diseases, health problems, parts of the body, or certain age groups",
+          "Detail": "50% Coinsurance"
+        },
+        {
+          "Name": "Routine Hearing Care",
+          "Description": "Includes but may not be limited to routine fitting exams and hearing aids",
+          "Detail": "Routine Fitting Exams - $0 Copay Per Exam.Hearing Aids - Hearing aid cost will be either $595 or $895, based upon your selection."
+        },
+        {
+          "Name": "Routine Eye Exams ",
+          "Description": "A routine eye exam is for checking your vision, screening for eye disease, and updating your prescription. Refraction is included, even when you already have a medical condition for which an annual eye exam is recommended, such as diabetes and a yearly retinopathy screening. ",
+          "Detail": "$0 Copay"
+        },
+        {
+          "Name": "Eyewear Benefits",
+          "Description": "Annual upgrades to your Medicare-covered eyewear or, if you don’t yet need cataract surgery, one pair of prescription eyewear",
+          "Detail": "A maximum of $200 is covered by the plan for eyewear per year."
+        },
+        {
+          "Name": "Telehealth Services ",
+          "Description": "Certain additional telehealth services, including those for Primary Care Physician services and Physician Specialist services can be furnished through electronic exchange, so that you do not need to leave the comfort of your own home",
+          "Detail": "$0 Copay"
+        },
+        {
+          "Name": "Fitness Benefit",
+          "Description": "Members may be eligible for a maximum of $15 monthly reimbursement for any gym membership, fitness app, aquatic center, or fitness classes. Members are required to fill out a form to receive reimbursement",
+          "Detail": "$15 Per month.This amount does not roll over from month to month."
+        },
+        {
+          "Name": "Over the Counter (OTC) Items ",
+          "Description": "You can use your OTC dollars provided by eternalHealth towards CMS approved items such as pain relievers, cold medications, and first aid supplies",
+          "Detail": "$50 Every calendar quarter (every three months).This amount does not roll over from quarter to quarter."
+        },
+        {
+          "Name": "Personal Emergency Response Device (PERS)",
+          "Description": "An electronic home unit or neck pendant available to members who meet specific criteria set by eternalHealth",
+          "Detail": "Fully covered with no cost to you."
+        },
+        {
+          "Name": "COVID-19 Tests ",
+          "Description": "",
+          "Detail": "Eight COVID-19 Tests Per Calendar Month"
+        },
+        {
+          "Name": "Prescription Drugs (Retail)",
+          "Description": "Prescribed drugs that are dispensed at a network pharmacy",
+          "Detail": ""
+        },
+        {
+          "Name": "Prescription Drugs (Mail) ",
+          "Description": "eternalHealth’s mail-order service allows you to order at least a 30-day supply of the drug and up to a 100-day supply of the drug on Tiers 1, 2, 3 or 4",
+          "Detail": ""
+        }
+      ]
+    },
+    {
+      "Id": "H12346",
+      "Name": "Forevermore HMO",
+      "Benefits": [
+        {
+          "Name": "MonthlyPremium",
+          "Description": "The monthly amount that you pay for your health insurance plan through eternalHealth.",
+          "Detail": "$120"
+        },
+        {
+          "Name": "Deuctible (Health Benefit)",
+          "Description": "The amount you pay for covered health care services before eternalHealth starts to pay.",
+          "Detail": "$0"
+        },
+        {
+          "Name": "Deductible (Drug Benefit) ",
+          "Description": "The amount you pay for covered prescription drugs before eternalHealth starts to pay.",
+          "Detail": "Tier 1 and 2 Drugs - $0 Tier 3, 4, and 5 Drugs - $185"
+        },
+        {
+          "Name": "Primary Care",
+          "Description": "",
+          "Detail": "$0 Copay"
+        },
+        {
+          "Name": "Preventative Care",
+          "Description": "The portion of your care that includes screenings, check-ups, and counseling to prevent health problems before they happen",
+          "Detail": "$0 Copay"
+        },
+        {
+          "Name": "Specialist Care",
+          "Description": "Services provided by a physician that focuses on a specific area of medicine, treating certain diseases, health problems, parts of the body, or certain age groups",
+          "Detail": "$10 Copay"
+        },
+        {
+          "Name": "Preventive Dental Services",
+          "Description": "Services provided by a physician that focuses on a specific area of medicine, treating certain diseases, health problems, parts of the body, or certain age groups",
+          "Detail": "$0 Copay"
+        },
+        {
+          "Name": "Comprehensive Dental Services ",
+          "Description": "Services provided by a physician that focuses on a specific area of medicine, treating certain diseases, health problems, parts of the body, or certain age groups",
+          "Detail": "50% Coinsurance"
+        },
+        {
+          "Name": "Routine Hearing Care",
+          "Description": "Includes but may not be limited to routine fitting exams and hearing aids",
+          "Detail": "Routine Fitting Exams - $0 Copay Per Exam.Hearing Aids - Hearing aid cost will be either $595 or $895, based upon your selection."
+        },
+        {
+          "Name": "Routine Eye Exams ",
+          "Description": "A routine eye exam is for checking your vision, screening for eye disease, and updating your prescription. Refraction is included, even when you already have a medical condition for which an annual eye exam is recommended, such as diabetes and a yearly retinopathy screening. ",
+          "Detail": "$0 Copay"
+        },
+        {
+          "Name": "Eyewear Benefits",
+          "Description": "Annual upgrades to your Medicare-covered eyewear or, if you don’t yet need cataract surgery, one pair of prescription eyewear",
+          "Detail": "A maximum of $200 is covered by the plan for eyewear per year."
+        },
+        {
+          "Name": "Telehealth Services ",
+          "Description": "Certain additional telehealth services, including those for Primary Care Physician services and Physician Specialist services can be furnished through electronic exchange, so that you do not need to leave the comfort of your own home",
+          "Detail": "$0 Copay"
+        },
+        {
+          "Name": "Fitness Benefit",
+          "Description": "Members may be eligible for a maximum of $15 monthly reimbursement for any gym membership, fitness app, aquatic center, or fitness classes. Members are required to fill out a form to receive reimbursement",
+          "Detail": "$15 Per month.This amount does not roll over from month to month."
+        },
+        {
+          "Name": "Over the Counter (OTC) Items ",
+          "Description": "You can use your OTC dollars provided by eternalHealth towards CMS approved items such as pain relievers, cold medications, and first aid supplies",
+          "Detail": "$50 Every calendar quarter (every three months).This amount does not roll over from quarter to quarter."
+        },
+        {
+          "Name": "Personal Emergency Response Device (PERS)",
+          "Description": "An electronic home unit or neck pendant available to members who meet specific criteria set by eternalHealth",
+          "Detail": "Fully covered with no cost to you."
+        },
+        {
+          "Name": "COVID-19 Tests ",
+          "Description": "",
+          "Detail": "Eight COVID-19 Tests Per Calendar Month"
+        },
+        {
+          "Name": "Prescription Drugs (Retail)",
+          "Description": "Prescribed drugs that are dispensed at a network pharmacy",
+          "Detail": ""
+        },
+        {
+          "Name": "Prescription Drugs (Mail) ",
+          "Description": "eternalHealth’s mail-order service allows you to order at least a 30-day supply of the drug and up to a 100-day supply of the drug on Tiers 1, 2, 3 or 4",
+          "Detail": ""
+        }
+      ]
+    },
+    {
+      "Id": "H12347",
+      "Name": "Forevermore HMO",
+      "Benefits": [
+        {
+          "Name": "MonthlyPremium",
+          "Description": "The monthly amount that you pay for your health insurance plan through eternalHealth.",
+          "Detail": "$120"
+        },
+        {
+          "Name": "Deuctible (Health Benefit)",
+          "Description": "The amount you pay for covered health care services before eternalHealth starts to pay.",
+          "Detail": "$0"
+        },
+        {
+          "Name": "Deductible (Drug Benefit) ",
+          "Description": "The amount you pay for covered prescription drugs before eternalHealth starts to pay.",
+          "Detail": "Tier 1 and 2 Drugs - $0 Tier 3, 4, and 5 Drugs - $185"
+        },
+        {
+          "Name": "Primary Care",
+          "Description": "",
+          "Detail": "$0 Copay"
+        },
+        {
+          "Name": "Preventative Care",
+          "Description": "The portion of your care that includes screenings, check-ups, and counseling to prevent health problems before they happen",
+          "Detail": "$0 Copay"
+        },
+        {
+          "Name": "Specialist Care",
+          "Description": "Services provided by a physician that focuses on a specific area of medicine, treating certain diseases, health problems, parts of the body, or certain age groups",
+          "Detail": "$10 Copay"
+        },
+        {
+          "Name": "Preventive Dental Services",
+          "Description": "Services provided by a physician that focuses on a specific area of medicine, treating certain diseases, health problems, parts of the body, or certain age groups",
+          "Detail": "$0 Copay"
+        },
+        {
+          "Name": "Comprehensive Dental Services ",
+          "Description": "Services provided by a physician that focuses on a specific area of medicine, treating certain diseases, health problems, parts of the body, or certain age groups",
+          "Detail": "50% Coinsurance"
+        },
+        {
+          "Name": "Routine Hearing Care",
+          "Description": "Includes but may not be limited to routine fitting exams and hearing aids",
+          "Detail": "Routine Fitting Exams - $0 Copay Per Exam.Hearing Aids - Hearing aid cost will be either $595 or $895, based upon your selection."
+        },
+        {
+          "Name": "Routine Eye Exams ",
+          "Description": "A routine eye exam is for checking your vision, screening for eye disease, and updating your prescription. Refraction is included, even when you already have a medical condition for which an annual eye exam is recommended, such as diabetes and a yearly retinopathy screening. ",
+          "Detail": "$0 Copay"
+        },
+        {
+          "Name": "Eyewear Benefits",
+          "Description": "Annual upgrades to your Medicare-covered eyewear or, if you don’t yet need cataract surgery, one pair of prescription eyewear",
+          "Detail": "A maximum of $200 is covered by the plan for eyewear per year."
+        },
+        {
+          "Name": "Telehealth Services ",
+          "Description": "Certain additional telehealth services, including those for Primary Care Physician services and Physician Specialist services can be furnished through electronic exchange, so that you do not need to leave the comfort of your own home",
+          "Detail": "$0 Copay"
+        },
+        {
+          "Name": "Fitness Benefit",
+          "Description": "Members may be eligible for a maximum of $15 monthly reimbursement for any gym membership, fitness app, aquatic center, or fitness classes. Members are required to fill out a form to receive reimbursement",
+          "Detail": "$15 Per month.This amount does not roll over from month to month."
+        },
+        {
+          "Name": "Over the Counter (OTC) Items ",
+          "Description": "You can use your OTC dollars provided by eternalHealth towards CMS approved items such as pain relievers, cold medications, and first aid supplies",
+          "Detail": "$50 Every calendar quarter (every three months).This amount does not roll over from quarter to quarter."
+        },
+        {
+          "Name": "Personal Emergency Response Device (PERS)",
+          "Description": "An electronic home unit or neck pendant available to members who meet specific criteria set by eternalHealth",
+          "Detail": "Fully covered with no cost to you."
+        },
+        {
+          "Name": "COVID-19 Tests ",
+          "Description": "",
+          "Detail": "Eight COVID-19 Tests Per Calendar Month"
+        },
+        {
+          "Name": "Prescription Drugs (Retail)",
+          "Description": "Prescribed drugs that are dispensed at a network pharmacy",
+          "Detail": ""
+        },
+        {
+          "Name": "Prescription Drugs (Mail) ",
+          "Description": "eternalHealth’s mail-order service allows you to order at least a 30-day supply of the drug and up to a 100-day supply of the drug on Tiers 1, 2, 3 or 4",
+          "Detail": ""
+        }
+      ]
+    }
+  ]
+}
