@@ -63,8 +63,6 @@ function parse_plan_structure() {
     let plan = PLAN_JSON[i];
     new_plans_name.push(plan.Name);
 
-    // new array like [planName, monthly, deuctible]
-    let newArr = [plan.Name];
     for (let j = 0; j < PLAN_JSON[i]["Benefits"].length; j++) {
       let benefit = PLAN_JSON[i][["Benefits"]][j];
       let key = benefit.Name;
@@ -84,16 +82,7 @@ function parse_plan_structure() {
         ];
         PLAN_DESCRIPTION[key] = benefit.Description;
       }
-
-      if (key == "MonthlyPremium") {
-        newArr[1] = benefit.Detail;
-      } else if (key == "Deuctible (Health Benefit)") {
-        newArr[2] = benefit.Detail;
-      }
     }
-
-    // new array push on final New Array
-    newArray.push(newArr);
   }
   return new_plans;
 }
@@ -191,12 +180,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   new_plans_name = [];
 
-  // new custom array
-  newArray = [];
-
-  //new_plans_count = {};
-  //console.log(selected_plans);
-  // available_plans = []
+  // new Array for read
+  newArray = [
+    ["Forevermore HMO", "$150", "$75"],
+    ["Forevermore HMO", "$220", "$65"],
+    ["Forevermore HMO", "$330", "$120"],
+  ];
   plans_table_ele = document.getElementById("plans_table");
   getJson();
 });
