@@ -62,6 +62,9 @@ function parse_plan_structure() {
   for (let i = 0; i < PLAN_JSON.length; i++) {
     let plan = PLAN_JSON[i];
     new_plans_name.push(plan.Name);
+
+    // new array like [planName, monthly, deuctible]
+    let newArr = [plan.Name];
     for (let j = 0; j < PLAN_JSON[i]["Benefits"].length; j++) {
       let benefit = PLAN_JSON[i][["Benefits"]][j];
       let key = benefit.Name;
@@ -82,25 +85,15 @@ function parse_plan_structure() {
         PLAN_DESCRIPTION[key] = benefit.Description;
       }
 
-      if (key == "MonthlyPremium" || key == "Deuctible (Health Benefit)") {
-        if (!new_plans_name_wise[plan.Name]) {
-          new_plans_name_wise[plan.Name] = [plan.Name, 0, 0];
-          new_plans_count[plan.Name] = 0;
-        }
-
-        new_plans_count[plan.Name]++;
-
-        if (key == "MonthlyPremium") {
-          new_plans_name_wise[plan.Name][1] += Number(
-            benefit.Detail.replace("$", "")
-          );
-        } else {
-          new_plans_name_wise[plan.Name][2] += Number(
-            benefit.Detail.replace("$", "")
-          );
-        }
+      if (key == "MonthlyPremium") {
+        newArr[1] = benefit.Detail;
+      } else if (key == "Deuctible (Health Benefit)") {
+        newArr[2] = benefit.Detail;
       }
     }
+
+    // new array push on final New Array
+    newArray.push(newArr);
   }
   return new_plans;
 }
@@ -148,24 +141,21 @@ function populatePlanTable() {
 
     tr.appendChild(td1);
 
+    // read data form newArray
     if (key == "MonthlyPremium") {
-      for (let x in new_plans_count) {
-        let value = new_plans_name_wise[x][1];
+      for (let x of newArray) {
+        let value = x[1];
         let td = document.createElement("td");
-        td.innerHTML = value + "$";
-        td.style = "text-align: center;";
-        td.colSpan = Math.floor(new_plans_count[x] / 2);
+        td.innerHTML = value;
         tr.appendChild(td);
       }
       tbody.appendChild(tr);
       continue;
     } else if (key == "Deuctible (Health Benefit)") {
-      for (let x in new_plans_count) {
-        let value = new_plans_name_wise[x][2];
+      for (let x of newArray) {
+        let value = x[2];
         let td = document.createElement("td");
-        td.innerHTML = value + "$";
-        td.style = "text-align: center;";
-        td.colSpan = Math.floor(new_plans_count[x] / 2);
+        td.innerHTML = value;
         tr.appendChild(td);
       }
       tbody.appendChild(tr);
@@ -200,8 +190,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   new_plans_name = [];
-  new_plans_name_wise = {};
-  new_plans_count = {};
+
+  // new custom array
+  newArray = [];
+
+  //new_plans_count = {};
   //console.log(selected_plans);
   // available_plans = []
   plans_table_ele = document.getElementById("plans_table");
