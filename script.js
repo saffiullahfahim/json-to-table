@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
   PLAN_JSON = [];
   PLAN_FORMATTED = {};
   PLAN_DESCRIPTION = {};
-  selected_plans = ["Forever HMO", "Forevermore HMO", "Freedom PPO"];
+  selected_plans = ["Forever HMO", "Freedom PPO", "Forevermore HMO"];
   selected_plans = selected_plans.sort((a, b) => {
     let x = a.toLowerCase();
     let y = b.toLowerCase();
@@ -183,9 +183,21 @@ document.addEventListener("DOMContentLoaded", () => {
   // new Array for read
   newArray = [
     ["Forevermore HMO", "$150", "$75"],
-    ["Forevermore HMO", "$220", "$65"],
-    ["Forevermore HMO", "$330", "$120"],
+    ["Freedom PPO", "$220", "$65"],
+    ["Forever HMO", "$330", "$120"],
   ];
+
+  newArray = newArray.sort((a, b) => {
+    let x = a[0].toLowerCase();
+    let y = b[0].toLowerCase();
+    if (x < y) {
+      return -1;
+    }
+    if (x > y) {
+      return 1;
+    }
+    return 0;
+  });
   plans_table_ele = document.getElementById("plans_table");
   getJson();
 });

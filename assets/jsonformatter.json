@@ -98,7 +98,7 @@
     },
     {
       "Id": "H12346",
-      "Name": "Forevermore HMO",
+      "Name": "Freedom PPO",
       "Benefits": [
         {
           "Name": "MonthlyPremium",
@@ -194,7 +194,7 @@
     },
     {
       "Id": "H12347",
-      "Name": "Forevermore HMO",
+      "Name": "Forever HMO",
       "Benefits": [
         {
           "Name": "MonthlyPremium",
